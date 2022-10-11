@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    
+    font-size: 'lato';
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+
+}
+
+.icon {
+    width: 40px;
+    height: 40px
+}
+
+img {
+    max-width: 100%;
+    background-color: grey;
+    
+    
+      
+}
+/*Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.contenido {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.producto {
+    
+    margin: 15px;
+    padding: 2px 16px;
+    display: grid;
+    justify-content:space-between;
+    text-align: center
+    
+}
+
+.producto:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.producto img{
+    width: 300px;
+    
+}
+
+.button-add {
+    transition-duration: 0.2s;
+    font-size: 16px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    border-radius: 8px;
+    padding: 10px 20px;
+       
+  }
+  
+.button-add:hover {
+    background-color: grey; /* Green */
+    color: white;
+}
+
+.precio {
+    text-align: center;
+}
