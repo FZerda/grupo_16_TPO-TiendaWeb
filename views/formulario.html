@@ -6,7 +6,7 @@
     <title>Patrones Responsive Web Design</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles-form.css">
+    <link rel="stylesheet" href="../css/styles-form.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -14,34 +14,49 @@
 
     <div class="contenedor con-sidebar">
         <article>
-            <h1>Entrada del Blog</h1>
-            <img src="img/imagen1.jpg">
+            <h1>CONOCENOS..!</h1>
+            <img src="../assets/matesformulario.jpg" class="imgformulario" width="550px" height="400px" alt="matesvarios">
+            
+            <div >
+                <h1> Comunicate con nosotros</h1>
+                <form action="registro" method="post">
 
-            <p>Maecenas maximus urna vitae nisl semper, id volutpat ipsum scelerisque. Aenean nec ipsum finibus, eleifend dolor at, venenatis risus. Quisque varius orci et augue scelerisque luctus. Praesent laoreet tortor vel mauris suscipit convallis. Duis
-                interdum venenatis metus, ut condimentum tortor fringilla eu. Curabitur mi lorem, pellentesque sed feugiat vitae, commodo id leo. Mauris nec dui consectetur, ullamcorper eros vel, volutpat nulla. Mauris mattis dignissim laoreet. In at
-                tellus et quam iaculis commodo. Aliquam cursus turpis sed elit consequat placerat sit amet in ante. Nulla libero ex, imperdiet non faucibus a, sagittis sit amet ligula. Sed blandit ante est, nec aliquet quam pulvinar sed. Sed varius, lacus
-                in facilisis ultrices, urna turpis ullamcorper nibh, sit amet interdum nisi nisi eget arcu. Vestibulum bibendum velit justo, eget cursus ipsum pharetra in.</p>
-
-            <p>Aliquam urna enim, ullamcorper vel urna id, tincidunt lobortis tortor. Donec bibendum condimentum purus, at rhoncus sapien. Phasellus ac ipsum metus. Aliquam arcu erat, posuere ac dolor vel, imperdiet tempor enim. Fusce tristique consequat
-                convallis. Sed auctor fermentum elit. Vestibulum mi libero, tincidunt quis auctor id, faucibus nec augue. Pellentesque ut vestibulum augue. Aenean in lorem tincidunt, sodales arcu eget, bibendum nisi. Proin vitae magna eu leo vulputate
-                congue consectetur sed felis. Ut tempus neque sit amet tortor aliquet hendrerit. Nulla feugiat metus quis libero convallis fermentum. Morbi eleifend id tellus quis iaculis. Sed vitae turpis eget eros faucibus luctus at vitae lacus. Nunc
-                blandit arcu arcu, non condimentum dui posuere vitae. Nulla facilisi.</p>
-
-            <p>Aliquam erat volutpat. Ut dapibus tincidunt odio, a pulvinar dolor dapibus varius. Quisque fringilla faucibus sapien nec blandit. Cras at lectus tincidunt mi cursus dapibus in a nunc. Suspendisse vitae velit orci. Suspendisse nisi sapien,
-                vehicula eget vehicula in, lacinia vitae tellus. Nulla facilisi. Sed consectetur consectetur sapien. Duis pretium blandit massa, mattis maximus nunc finibus in. Vestibulum ultrices ex lorem, sed ullamcorper est rhoncus sit amet. Pellentesque
-                placerat ex sed nisl posuere, a porta augue finibus. Sed auctor mauris nec lacus interdum, nec consequat est pharetra. Praesent sit amet rhoncus diam. Nullam risus sapien, euismod vitae condimentum ac, consequat quis dui. Donec varius
-                condimentum orci ac malesuada. Nulla bibendum quam viverra, bibendum ex vel, suscipit lacus.</p>
+                    
+                    <label for="motivo">MOTIVO</label>
+                    <select type="select" name="motivo" placeholder="Selecciona un motivo" id="motivo">
+                        <option disabled selected>Selecciona un motivo</option>
+                        <option value="canc_compra">Cancelar Compra</option>
+                        <option value="camb_dev">Cambios y devoluciones</option>
+                        <option value="envios_pedido">Envío de pedidos</option>
+                        <option value="cotros">Otra información</option>
+                    </select> 
+                
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido">
+            
+                    <label for="direccion">Dirección</label>
+                    <textarea type="text" id="" cols="30" rows="5"></textarea>
+                    
+                    <label for="correo">Email</label>
+                    <input type="email" id="correo" name="correo" >
+                    
+                    <input type="submit" value="Submit">
+                
+                </form>
+            </div>
         </article>
         <aside>
-            <h2>Sobre Nosotros</h2>
-            <p>Titulo Blog, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
-            <h2>Misión</h2>
-            <p>Titulo Blog, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="contenedor1">
+                <h2>Sobre Nosotros</h2>
+                <p><b>TIENDA DE MATES</b> es una empresa creada por Codo a Codo impulsada por nuestra pasión y amor por esta costumbre tan nuestra que tenemos todos los Argentinos: ¡EL MATE!.</p><br>
+                
+                <h2>Misión</h2>
+                <p> Nos dedicamos a la venta de todo tipo de productos para matear: mates, bombillas, termos, yerbas, materas, bolsos.. ¡Y mucho más!<br>
+                Nuestra misión y objetivo principal es aprobar y además brindarles siempre lo mejor para que ustedes puedan disfrutar al máximo de este ritual que tanto queremos y tan felices nos hace.</p>
+                </div>
+            
         </aside>
+
     </div>
 
 </body>
