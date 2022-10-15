@@ -1,6 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;    
+    font-weight: bold;
+    background-color:beige
+    
+    
+}
+
 .encabezado{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+   
+   
 }
-.barraMenu{
-    display: block;
-}
+
+
+
+
+
+
+
+
