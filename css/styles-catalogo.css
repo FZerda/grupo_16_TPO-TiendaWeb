@@ -2,31 +2,70 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-transform: uppercase;    
-    font-weight: bold;
-    background-color: beige;
+    background-color: #f1f7ed;
     
-    
+       
 }
+
 
 body {
     
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0 auto;   
+    text-transform: uppercase;   
       
 }
 
-  
-header {
-   height: 80vh;
-   background-image: linear-gradient(120deg, rgb(0, 0, 0) 0%, #96e6a100 100%),url(../assets/mate-header.jpeg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   
+#boton-menu {
+    display: none;
 }
 
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
 
+header label:hover {
+    cursor: pointer;
+    background:rgba(0, 0, 0,0.3);
+    
+    
+}
 
+ header {
+   
+   height: 75vh;
+   background-image: linear-gradient(120deg, rgb(0, 0, 0) 0%, #96e6a100 100%),url(../assets/mate-header.jpeg);
+   background-repeat: no-repeat;
+   background-size:cover;
+   
+} 
+
+.menu ul{
+    
+    
+    text-align: center;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+    
+}
+
+.menu li:hover{
+    background: rgba(0, 0, 0,0.3);
+}
+
+.menu li a{
+    list-style: none;
+    text-align: center;
+    
+    padding: 0;
+    margin: 0;
+    
+
+ }
 
 .contenido {
     width: 90%;
@@ -56,12 +95,10 @@ header {
     justify-content:center;
     display: block;
     
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  
-    
-    
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+     
     
 }
 
@@ -80,6 +117,7 @@ header {
 }
 
 .button-comprar-add{    
+    display: inline-block;
     cursor: pointer;
     font-size: 16px;
     text-align: center;
@@ -87,17 +125,27 @@ header {
     color: black;
     border: 2px solid green;
     border-radius: 8px;
-    padding: 5px 25px;
+    padding: 10px;
+    
+      
 
 }
 
 .precio {
     text-align: center;
-    padding: 10px;
+    padding: 50px;
     
 }
 
 .pie-pagina{
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
+    color: white;
     justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.redes-sociales{
+    color: white;
 }
