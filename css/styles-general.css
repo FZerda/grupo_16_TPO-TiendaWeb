@@ -10,18 +10,19 @@ body {
     text-transform: uppercase; 
     background-color: #f1f7ed;  
     
-}
+}   
 
 
 .logo{
     display:flex;   
+    float: left;
     height: 150px;
 }
 
 .logo img {
-    padding-left: 200px;
+    padding-right: 100px;
     
-}
+}   
 
 header {
     display: flex;
@@ -58,4 +59,4 @@ a:hover{background-color: white;}
     nav {
         padding: 10px 0px;
     }
-}
+}   
