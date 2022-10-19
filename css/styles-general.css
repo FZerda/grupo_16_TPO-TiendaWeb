@@ -32,12 +32,7 @@ header {
     font-size: 20px;
     list-style: none;
     min-height: 70px;
-       
-    /* height: 75vh;
-    background-image: linear-gradient(120deg, rgb(0, 0, 0) 0%, #96e6a100 100%),url(../assets/mate-header.jpeg);
-    background-repeat: no-repeat;
-    background-size:cover; */
-
+    
 }
 
 a{
