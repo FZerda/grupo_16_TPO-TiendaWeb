@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;   
+    text-transform: uppercase; 
+    background-color: #f1f7ed;  
+    
+}
+
+
+.logo{
+    display:flex;   
+    height: 150px;
+}
+
+.logo img {
+    padding-left: 200px;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #243e36;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    list-style: none;
+    min-height: 70px;
+       
+    /* height: 75vh;
+    background-image: linear-gradient(120deg, rgb(0, 0, 0) 0%, #96e6a100 100%),url(../assets/mate-header.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover; */
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+}
+
+a:hover{background-color: white;}
+
+@media (max-width:700px){
+    header{
+        flex-direction: columns;
+
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}
