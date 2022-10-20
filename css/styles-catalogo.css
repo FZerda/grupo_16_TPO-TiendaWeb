@@ -1,48 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-transform: uppercase;    
-    font-weight: bold;
-    
-    
-}
-/*Desplazamiento*/
-:root {
-    scroll-behavior: smooth;
-}
-
-body {
-    
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 0 auto;   
-      
-}
-
-  
-/*Header*/
 header {
-   height: 85vh;
-   background-image: linear-gradient(120deg, rgb(0, 0, 0) 0%, #96e6a100 100%),url(../assets/mate-header.jpeg);
-   background-repeat: no-repeat;
-   background-size: cover;
+    
+    height: 75vh;
+    background-image: linear-gradient(120deg, rgb(0, 0, 0) 0%, #96e6a100 100%),url(../assets/mate-header.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
    
-}
+       
+} 
 
-
-.menu-icon {
-    position: fixed;
-    top: 25px;
-    padding: 5px;
-    width: 40px;
-    height: 40px;
-    color: rgb(0, 0, 0);
-    right: 0px;
-    cursor:pointer;
-    border-radius: 10px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 5);
-                          
-}
 
 .contenido {
     width: 90%;
@@ -56,48 +21,26 @@ header {
        
 }
 
-.menu-navegacion {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 30vw;
-    height: 100%;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    box-shadow: 0 0 6px rgba(0,0,0,5);
-    /*transition: transform .3s ease-in-out;*/
-    transform: translate(110%);
-}
-
-.spread{
-    transform: translate(0);
-}
-
-.menu-navegacion a{
-    color: #fff;
-    text-decoration: none;
-}
-
-
 
 .contenedor-producto {
-    margin: 40px;
+    margin: 30px;
     padding: 1px 10px;
     display: grid;
     grid-template-columns: 3,1fr;
     cursor:pointer;
-    border-style:ridge
-       
+    border-style:none
        
 }
 
 .contenedor-producto img{
-    width: 250px;
-    justify-content:space-between;
+    width: 280px;
+    justify-content:center;
+    display: block;
     
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+     
     
 }
 
@@ -115,21 +58,23 @@ header {
     color: white;
 }
 
-.button-comprar-add{
+.button-comprar-add{    
+    display: inline-block;
     cursor: pointer;
     font-size: 16px;
+    font-weight: 600;
     text-align: center;
     background-color: white;;
     color: black;
     border: 2px solid green;
     border-radius: 8px;
-    padding: 5px 25px;
-
-
-
-}
-.precio {
-    text-align: center;
     padding: 10px;
     
 }
+
+.precio {
+    text-align: center;
+    padding: 50px;
+    
+}
+
