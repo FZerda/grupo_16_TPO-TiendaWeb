@@ -35,6 +35,7 @@ header {
     font-size: 20px;
     list-style: none;
     min-height: 70px;
+    
        
     /* height: 75vh;
     background-image: linear-gradient(120deg, rgb(0, 0, 0) 0%, #96e6a100 100%),url(../assets/mate-header.jpeg);
@@ -105,13 +106,17 @@ a:hover{background-color: white;}
     color: white;
 }
 
-@media (max-width:700px){
-    header{
-        flex-direction: columns;
+/*tamaño ipad mini (768x1024)*/
+@media (max-width:768px){ 
+    
 
-    }
+}
+    
+ 
+/*tamaño samsung s8+ (360x740)*/
+@media (max-width:360px){ 
+    
 
-    nav {
-        padding: 10px 0px;
-    }
-}   
+  
+    
+}
