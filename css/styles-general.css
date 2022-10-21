@@ -24,6 +24,8 @@ body {
     
 }   
 
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -49,6 +51,59 @@ a{
 }
 
 a:hover{background-color: white;}
+
+#pie_pagina {
+    
+    background-color: black;
+    width: 100%;
+    color:white;
+}
+
+.contenedor_footer{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.tarjetaimg {
+    width: 70px;
+    height: 30pxpx;
+    margin: 5px 5px 5px 5px; 
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+    list-style: none;
+}
+
+.footer_redes{
+    display: flex;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    line-height: 10px;
+    color: white;
+    margin-right: 15px;
+    background-color: #252525;
+    text-align: center;
+    transition:  all 300ms ease;
+}
+
+.footer_redes a:hover {
+    color:aqua;
+}
+
+.marca {
+    width: 100%;
+    background-color: #243e36;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
 
 @media (max-width:700px){
     header{
