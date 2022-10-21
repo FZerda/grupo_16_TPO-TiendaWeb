@@ -12,7 +12,28 @@
 </head>
 
 <body>
+    <header>
+        <div class="logo">
+            <img src="../assets/logo3.svg" alt="logo de la tienda">
+        </div>
+            
+        <div class="menu">
+            <nav class="menu1">
+                <a href="./Inicio.html" class="nav-menu-link nav-link">Inicio</a></li> 
+                <a href="./catalogo.html" class="nav-menu-link nav-link">Catalogo</a></li> 
+                <a href="./Cuidados.html" class="nav-menu-link nav-link">Cuidados del mate</a></li>
+                <a href="./formulario.html" class="nav-menu-link nav-link">Contacto</a></li> 
+            
+            </nav>
+        </div>
 
+        <div class="menu2">    
+            <nav class="menu2">
+                <a href="#" class="nav-menu-link nav-link">Iniciar sesión</a></li>
+                <a href="#" class="nav-menu-link nav-link">Carrito</a></li>
+            </nav>
+        </div>    
+    </header>
     <div class="contenedor con-sidebar">
         <article>
             <h1>CONOCENOS...!</h1>
@@ -23,25 +44,25 @@
                 <form action="registro" method="post">
 
                     
-                    <label for="motivo">MOTIVO</label>
+                    <label for="motivo">MOTIVO</label><br>
                     <select type="select" name="motivo" placeholder="Selecciona un motivo" id="motivo">
                         <option disabled selected>Selecciona un motivo</option>
                         <option value="canc_compra">Cancelar Compra</option>
                         <option value="camb_dev">Cambios y devoluciones</option>
                         <option value="envios_pedido">Envío de pedidos</option>
                         <option value="cotros">Otra información</option>
-                    </select> 
+                    </select> <br>
                 
-                    <label for="apellido">Apellido</label>
-                    <input type="text" id="apellido" name="apellido">
+                    <label for="apellido">Apellido</label><br>
+                    <input type="text" id="apellido" name="apellido"><br>
             
-                    <label for="direccion">Dirección</label>
-                    <textarea type="text" id="" cols="30" rows="5"></textarea>
+                    <label for="direccion">Dirección</label><br>
+                    <textarea type="text" id="" cols="30" rows="5"></textarea><br>
                     
-                    <label for="correo">Email</label>
-                    <input type="email" id="correo" name="correo" >
+                    <label for="correo">Email</label><br>
+                    <input type="email" id="correo" name="correo" ><br>
                     
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit"><br>
                 
                 </form>
             </div>
@@ -84,7 +105,8 @@
             </div>
             <div>
                
-                <div class="datos">    
+                <div class="datos">
+                    <h3>Contacto</h3>
                     <ul class="datos">
                     <i class="fas fa-envelope"></i> tiendademates@gmail.com
                     </ul>
