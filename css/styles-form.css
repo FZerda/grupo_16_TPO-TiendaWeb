@@ -34,6 +34,40 @@ p {
     margin: 0 auto;
 }
 
+article {
+    height: auto;
+    overflow: hidden;
+    border: 1pxsolidrgba(44,51,88,.08);
+    border-radius: 8px;
+    position: relative;
+    background-color:#e3f1da;
+    transition: box-shadow .6s;
+    margin: 30px 10px 0px 20px;
+    padding: 10px 50px 10px 50px;
+}
+.contenedor1{
+    height: auto;
+    overflow: hidden;
+    border: 1pxsolidrgba(44,51,88,.08);
+    border-radius: 8px;
+    position: relative;
+    background-color:#e3f1da;
+    transition: box-shadow .6s;
+    margin: 30px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.contenedor2{
+    height: auto;
+    overflow: hidden;
+    border: 1pxsolidrgba(44,51,88,.08);
+    border-radius: 8px;
+    position: relative;
+    background-color:#e3f1da;
+    transition: box-shadow .6s;
+    margin: 30px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
 .entrada-blog a {
     display: inline-block;
     background-color: #2196F3;
