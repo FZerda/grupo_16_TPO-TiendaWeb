@@ -17,15 +17,17 @@ img {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 5.5rem;
+    font-family: 'Bangers', cursive;
 }
 
 h2 {
-    font-size: 3.2rem;
+    font-size: 3.5rem;
+    font-family: 'Bangers', cursive;
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .contenedor {
@@ -45,6 +47,22 @@ article {
     margin: 30px 10px 0px 20px;
     padding: 10px 50px 10px 50px;
 }
+
+.form-nombre{
+    width: 200px;
+}
+.form-telefono{
+    width: 200px;
+}
+.form-email{
+    width: 200px;
+}
+.form-comentario{
+    width: 500px;
+    height: 80px;
+}
+
+
 .contenedor1{
     height: auto;
     overflow: hidden;
@@ -90,3 +108,18 @@ article {
         flex-basis: calc(66.7% - 2rem);
     }
 }
+@media (max-width:950px){
+    .form-comentario{
+        width: 350px;
+        height: 80px;
+    }
+}
+@media (max-width:500px){
+    .form-comentario{
+        width: 200px; 
+    }
+    .h1{
+        font-size: 4rem;
+    }
+}
+

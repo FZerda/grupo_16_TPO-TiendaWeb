@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="../css/styles-general.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/d6559d104c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -36,35 +39,51 @@
     </header>
     <div class="contenedor con-sidebar">
         <article>
-            <h1>CONOCENOS...!</h1>
-            <img src="../assets/matesformulario.jpg" class="imgformulario" width="550px" height="400px" alt="matesvarios">
+            <h1>CONOCENOS!</h1>
+            <img src="../assets/formulariomate.jpg" class="imgformulario" width="550px" height="400px" alt="matesvarios">
             
             <div >
                 <h2> Comunicate con nosotros</h2>
-                <form action="registro" method="post">
 
+                <div class="formulario">
+                    <form action="registro" method="post">
+
+                        <p>Podés enviarnos un mensaje:</p>
+                        <form action="/action_page.php">
+                            <div class="form-floating mb-3 mt-3">
+                            <select class="form-select" id="sel1" name="sellist">
+                            <option>---</option>
+                            <option>1- Cancelar Compra</option>
+                            <option>2- Cambios y Devoluciones</option>
+                            <option>3- Envíos de pedidos</option>
+                            <option>4- Otra información</option>
+                            </select>
+                            <label for="sel1" class="form-label"></label>
+                        </div>
+                        
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="text" class="form-nombre"  placeholder="Pone tu Nombre y Apellido" name="nombre">
+                            <label for="text"></label>
+                        </div>
+
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="number" class="form-telefono" placeholder="Pone tu Telefono" name="telefono">
+                            <label for="number"></label>
+                        </div>
+
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="text" class="form-email" id="email" placeholder="Pone tu Email" name="email">
+                            <label for="email"></label>
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-comentario" id="comment" name="text" placeholder="Pone tu Comentario""></textarea>
+                            <label for="comment"></label>
+                        </div>
+                        
+                        <input type="submit" value="Enviar"><br>
                     
-                    <label for="motivo">MOTIVO</label><br>
-                    <select type="select" name="motivo" placeholder="Selecciona un motivo" id="motivo">
-                        <option disabled selected>Selecciona un motivo</option>
-                        <option value="canc_compra">Cancelar Compra</option>
-                        <option value="camb_dev">Cambios y devoluciones</option>
-                        <option value="envios_pedido">Envío de pedidos</option>
-                        <option value="cotros">Otra información</option>
-                    </select> <br>
-                
-                    <label for="apellido">Apellido</label><br>
-                    <input type="text" id="apellido" name="apellido"><br>
-            
-                    <label for="direccion">Dirección</label><br>
-                    <textarea type="text" id="" cols="30" rows="5"></textarea><br>
-                    
-                    <label for="correo">Email</label><br>
-                    <input type="email" id="correo" name="correo" ><br>
-                    
-                    <input type="submit" value="Submit"><br>
-                
-                </form>
+                    </form>
+                </div>    
             </div>
         </article>
         <aside>
