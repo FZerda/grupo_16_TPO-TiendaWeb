@@ -71,7 +71,7 @@ a:hover{background-color: white;}
 .tarjetaimg {
     display: block;
     float: left;
-    margin: 0px 5px 5px 0px
+    margin: 0px 5px 5px 0px;
     padding: 5px;
     list-style: none;
 }
@@ -90,10 +90,21 @@ a:hover{background-color: white;}
     transition:  all 300ms ease;
 }
 
+
 .footer_redes a:hover {
     color:aqua;
 }
-
+.footer_datos {
+    display: inline-block;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    line-height: 10px;
+    color: white;
+    background-color: #000000;
+    margin-top: 0px;
+    text-align: center;
+    transition:  all 300ms ease;
+}
 .marca {
     width: 100%;
     background-color: #243e36;
@@ -101,8 +112,18 @@ a:hover{background-color: white;}
     text-align: center;
     color: white;
 }
+.contacto {
+    list-style-type: none;
+}
 
+.datos {
+    margin-top: 0px;
+    display: inline-block;
+}
 
+.datos a:hover {
+    background-color: #243e36
+}
 
 
 /*tamaño ipad mini (768x1024)*/
