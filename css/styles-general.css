@@ -54,28 +54,24 @@ a{
 a:hover{background-color: white;}
 
 #pie_pagina {
-    
     background-color: black;
     width: 100%;
     color:white;
 }
 
 .contenedor_footer{
-    width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
-    padding: 45px 0px;
+    padding: 20px 0px;
 }
 
 .tarjetaimg {
-    width: 70px;
-    height: 30pxpx;
-    margin: 5px 5px 5px 5px; 
-    display: flex;
-    flex-wrap: nowrap;
+    display: block;
+    float: left;
+    margin: 0px 5px 5px 0px
     padding: 5px;
     list-style: none;
 }
@@ -106,16 +102,29 @@ a:hover{background-color: white;}
     color: white;
 }
 
+
+
+
 /*tamaño ipad mini (768x1024)*/
 @media (max-width:768px){ 
-    
+    .contenedor_footer{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        padding: 10px 0px;
+    }
 
 }
     
  
 /*tamaño samsung s8+ (360x740)*/
 @media (max-width:360px){ 
-    
+    .contenedor_footer{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        padding: 10px 0px;
+    }
 
   
     
