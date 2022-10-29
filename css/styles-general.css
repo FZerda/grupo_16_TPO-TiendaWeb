@@ -138,6 +138,11 @@ i:hover{
     background-color: #243e36
 }
 
+iframe {
+    border: 1px solid black;
+    width: 100%;
+}
+
 
 /*tamaño ipad mini (768x1024)*/
 @media (max-width:768px){ 
