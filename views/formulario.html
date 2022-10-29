@@ -7,7 +7,6 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles-form.css">
     <link rel="stylesheet" href="../css/styles-general.css">
-    <link rel="script" href="../scripts/Validacion_formulario.js"
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,33 +83,8 @@
                         
                         <input type="submit" value="Enviar"><br>
                     
-
-                    <label for="motivo">MOTIVO</label>
-                    <select type="select" name="motivo" placeholder="Selecciona un motivo" id="motivo">
-                        <option value="sel_motivo">Selecciona un motivo</option>
-                        <option value="canc_compra">Cancelar Compra</option>
-                        <option value="camb_dev">Cambios y devoluciones</option>
-                        <option value="envios_pedido">Envío de pedidos</option>
-                        <option value="cotros">Otra información</option>
-                    </select>
-                    <p id="motivoError"></p> 
-                
-                    <label for="apellido">Apellido</label>
-                    <input type="text" id="apellido" name="apellido">
-            
-                    <label for="direccion">Dirección</label>
-                    <textarea type="text" id="" cols="30" rows="5"></textarea>
-                    <label for="correo">Email</label>
-                    <input type="email" id="correo" name="correo">
-                    <p id="correoError"></p>
-                    <button onclick="validarFormulario()">Enviar</button>
-                    <!--<input type="submit" value="Submit" onclick="validarFormulario()">-->
-                
-                </form>
-
                     </form>
                 </div>    
-
             </div>
         </article>
         <aside>
@@ -177,29 +151,7 @@
 
     </footer>
 
-    <script>
-        function validarFormulario(){
-    const motivo=document.getElementById("motivo");
-    const correo=document.getElementById("correo");
-    if (!correo.checkValidity()){
-        document.getElementById("correoError").innerHTML="Inserte una direccion de correo valida";
-    }
-    else{
-        document.getElementById("correoError").innerHTML="";
-    }
-    if(motivo=="sel_motivo"){
-        document.getElementById("motivoError").innerHTML="Inserte un motivo";
-    }
-    else{
-        document.getElementById("motivoError").innerHTML="";
-    }
-    return;
-    }
-    </script>
-
-
     <script src="https://kit.fontawesome.com/d6559d104c.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
