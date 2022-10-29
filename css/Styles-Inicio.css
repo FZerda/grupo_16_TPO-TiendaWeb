@@ -1,4 +1,112 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.slider {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+/*Animación*/
+.slider ul {
+    display: grid;
+    grid-template-columns: 100% 100% 100%;
+    width: 100%;
 
 
+    animation: slide 20s infinite linear;
 
+}
 
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 0%;
+
+}
+
+@keyframes slide {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+   
+}
+
+.destacado{
+    width: 90%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);    
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+    justify-content: space-evenly;
+}
+
+.contenedor-producto {
+    margin: 30px;
+    padding: 1px 10px;
+    display: grid;
+    grid-template-columns: 3,1fr;
+    cursor:pointer;
+    border-style:none
+       
+}
+
+.contenedor-producto img{
+    width: 280px;
+    justify-content:center;
+    display: block;
+    
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+     
+    
+}
+
+.contenedor-producto:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.contenedor-producto h3{
+    text-align: center;
+    
+}
+  
+.button-comprar-add:hover {
+    background-color: rgb(0, 126, 48);
+    color: white;
+}
+
+.button-comprar-add{    
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    background-color: white;;
+    color: black;
+    border: 2px solid green;
+    border-radius: 8px;
+    padding: 10px;
+    
+}

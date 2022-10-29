@@ -1,7 +1,7 @@
 * {
     padding: 0;
     box-sizing: border-box;
-    
+    margin: 0;
 }
 
 body {
@@ -9,7 +9,6 @@ body {
     margin: auto;   
     text-transform: uppercase; 
     background-color: #f1f7ed;  
-    
 }   
 
 
@@ -21,9 +20,7 @@ body {
 
 .logo img {
     padding-right: 100px;
-    
 }   
-
 
 
 header {
@@ -35,46 +32,52 @@ header {
     font-size: 20px;
     list-style: none;
     min-height: 70px;
-       
-    /* height: 75vh;
-    background-image: linear-gradient(120deg, rgb(0, 0, 0) 0%, #96e6a100 100%),url(../assets/mate-header.jpeg);
-    background-repeat: no-repeat;
-    background-size:cover; */
-
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
     font-weight: 600;
     padding: 10px;
 }
 
-a:hover{background-color: white;}
+a:hover{
+    background-color: #e3f1da;
+    transition: background-color 0.5s;
+}
+
+i{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 20px;
+    cursor: pointer;
+}
+
+i:hover{
+    background-color: white;
+    transition: background-color 0.5s
+}
 
 #pie_pagina {
-    
     background-color: black;
     width: 100%;
     color:white;
 }
 
 .contenedor_footer{
-    width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
-    padding: 45px 0px;
+    padding: 20px 0px;
 }
 
 .tarjetaimg {
-    width: 70px;
-    height: 30pxpx;
-    margin: 5px 5px 5px 5px; 
-    display: flex;
-    flex-wrap: nowrap;
+    display: block;
+    float: left;
+    margin: 0px 5px 5px 0px;
     padding: 5px;
     list-style: none;
 }
@@ -93,10 +96,28 @@ a:hover{background-color: white;}
     transition:  all 300ms ease;
 }
 
+
 .footer_redes a:hover {
     color:aqua;
 }
 
+.footer_redes i {
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+}
+
+.footer_datos {
+    display: inline-block;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    line-height: 10px;
+    color: white;
+    background-color: #000000;
+    margin-top: 0px;
+    text-align: center;
+    transition:  all 300ms ease;
+}
 .marca {
     width: 100%;
     background-color: #243e36;
@@ -104,6 +125,24 @@ a:hover{background-color: white;}
     text-align: center;
     color: white;
 }
+.contacto {
+    list-style-type: none;
+}
+
+.datos {
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.datos a:hover {
+    background-color: #243e36
+}
+
+iframe {
+    border: 1px solid black;
+    width: 100%;
+}
+
 
 #motivoError{
     color: red;
@@ -116,9 +155,25 @@ a:hover{background-color: white;}
     header{
         flex-direction: columns;
 
-    }
 
-    nav {
+/*tamaño ipad mini (768x1024)*/
+@media (max-width:768px){ 
+    .contenedor_footer{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
         padding: 10px 0px;
     }
-}   
+
+}
+    
+ 
+/*tamaño samsung s8+ (360x740)*/
+@media (max-width:360px){ 
+    .contenedor_footer{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        padding: 10px 0px;
+    }
+}
