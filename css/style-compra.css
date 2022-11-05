@@ -1,0 +1,132 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 5.5rem;
+    font-family: 'Bangers', cursive;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-family: 'Bangers', cursive;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+.contenedor {
+    max-width: 1000px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+article {
+    height: auto;
+    overflow: hidden;
+    border: 1pxsolidrgba(44,51,88,.08);
+    border-radius: 8px;
+    position: relative;
+    background-color:#e3f1da;
+    transition: box-shadow .6s;
+    margin: 30px 10px 0px 20px;
+    padding: 10px 50px 10px 50px;
+}
+
+.contenedor1{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    border: 1pxsolidrgba(44,51,88,.08);
+    border-radius: 8px;
+    position: relative;
+    background-color:#e3f1da;
+    transition: box-shadow .6s;
+    margin: 30px 70px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.contenedor2{
+    height: auto;
+    width: 100%;
+    border: 1pxsolidrgba(44,51,88,.08);
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    background-color:#e3f1da;
+    transition: box-shadow .6s;
+    margin: 30px 70px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+.button-comprar-add:hover {
+    background-color: rgb(0, 126, 48);
+    color: white;
+}
+
+.button-comprar-add{    
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    border-radius: 8px;
+    padding: 8px;
+    width: 200px;
+    margin: 2px;
+    
+}
+.entrada-blog a {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media (min-width:768px) {
+    .con-sidebar {
+        display: flex;
+        justify-content: space-between;
+    }
+    aside {
+        flex-basis: calc(33.3% - 2rem);
+    }
+    article {
+        flex-basis: calc(66.7% - 2rem);
+    }
+}
+@media (max-width:950px){
+    .form-comentario{
+        width: 350px;
+        height: 80px;
+    }
+}
+@media (max-width:500px){
+    .form-comentario{
+        width: 200px; 
+    }
+    .h1{
+        font-size: 4rem;
+    }
+}
+
