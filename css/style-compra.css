@@ -35,14 +35,16 @@ p {
     width: 95%;
     margin: 0 auto;
 }
-
+.contenedor1 h2 del {
+ color:rgb(134, 134, 130);
+}
 article {
     height: auto;
     overflow: hidden;
     border: 1pxsolidrgba(44,51,88,.08);
     border-radius: 8px;
     position: relative;
-    background-color:#e3f1da;
+    background-color:#9ca597;
     transition: box-shadow .6s;
     margin: 30px 10px 0px 20px;
     padding: 10px 50px 10px 50px;
@@ -93,15 +95,7 @@ article {
     margin: 2px;
     
 }
-.entrada-blog a {
-    display: inline-block;
-    background-color: #2196F3;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
-}
+
 
 @media (min-width:768px) {
     .con-sidebar {
