@@ -37,6 +37,7 @@ p {
 }
 .contenedor1 h2 del {
  color:rgb(134, 134, 130);
+ text-align: center;
 }
 article {
     height: auto;
@@ -95,7 +96,9 @@ article {
     margin: 2px;
     
 }
-
+.contenedor1 {
+    
+}
 
 @media (min-width:768px) {
     .con-sidebar {
