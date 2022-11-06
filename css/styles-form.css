@@ -36,6 +36,14 @@ p {
     margin: 0 auto;
 }
 
+.envioCorrecto {
+    color: #0ce42c
+}
+
+.optionDefault {
+    color: gray
+}
+
 article {
     height: auto;
     overflow: hidden;

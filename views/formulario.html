@@ -48,15 +48,16 @@
                 <h2>Comunicate con nosotros</h2>
 
                 <div class="formulario">
-                    <form action="registro" method="post">
-
+                    <form action="formulario.html" method="post">
+                        <p class="envioCorrecto"></p>
                         <p>Podés enviarnos un mensaje:</p>
+
                         <form action="/action_page.php">
                             <div class="form-floating mb-3 mt-3">
                             <select class="form-select" id="sel1" name="sellist">
-                            <option>---</option>
-                            <option>1- Cancelar Compra</option>
-                            <option>2- Cambios y Devoluciones</option>
+                            <option value="" disabled selected hidden>Motivo de su consulta</option>
+                            <option value="Cancelar Compra">1- Cancelar Compra</option>
+                            <option value="">2- Cambios y Devoluciones</option>
                             <option>3- Envíos de pedidos</option>
                             <option>4- Otra información</option>
                             </select>
@@ -81,7 +82,7 @@
                             <textarea class="form-comentario" id="comment" name="text" placeholder="Comentario""></textarea>
                             <label for="comment"></label>
                         </div>
-                        
+                        <p id="motivoError"></p>
                         <input type="submit" value="Enviar"><br>
                     
                     </form>
