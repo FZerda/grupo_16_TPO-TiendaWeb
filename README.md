@@ -13,7 +13,7 @@ Para estas animaciones se usó animate.css
 
 https://www.mateandoarg.com/
 https://www.tomamatetienda.com.ar/
-Elegimos éstas páginas porque nos gustó la estetica e intentamos hacer algo parecido.
+Elegimos éstas páginas porque nos gustó la estética e intentamos hacer algo parecido.
 
 https://www.mercadolibre.com.ar/
 Elegimos Mercadolibre para tener una idea de precios de los productos.
@@ -24,7 +24,8 @@ Paleta de colores: Distintos tonos de Verde
 F1F7ED
 7CA982
 
-api:redes sociales
+api: conversor de moneda
+https://www.exchangerate-api.com/
 
 Colocamos como iframe un mapa en la página de "contacto" que nos redirecciona a una ubicación X Buenos Aires. 
 Av. Sta. Fe 1302 (Palermo)
