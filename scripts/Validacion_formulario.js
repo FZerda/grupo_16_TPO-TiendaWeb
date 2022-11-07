@@ -2,7 +2,8 @@ function validarFormulario(){
     const motivo=document.getElementById("motivo");
     const correo=document.getElementById("email");
     let error=false;
-    if (!correo.checkValidity()){
+    if (!(document.getElementById("email").checkvalidity())){
+        alert("Inserte una direccion de correo valida")
         document.getElementById("correoError").innerHTML="Inserte una direccion de correo valida";
         error=true;
     }
