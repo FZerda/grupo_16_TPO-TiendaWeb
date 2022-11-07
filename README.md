@@ -34,7 +34,7 @@ Av. Sta. Fe 1302 (Palermo)
 
 
 Logo que creamos para la página:
-![Screenshoot](./assets/logo3.svg) 
+![Screenshoot](./assets/logo.png) 
 
 
 Integrantes:
