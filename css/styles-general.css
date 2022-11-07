@@ -97,10 +97,6 @@ i:hover{
 }
 
 
-.footer_redes a:hover {
-    color:aqua;
-}
-
 .footer_redes i {
     width: 35px;
     height: 35px;
@@ -159,7 +155,6 @@ iframe {
         padding: 0px;
         width: 120px;
     }
-
 }
     
  

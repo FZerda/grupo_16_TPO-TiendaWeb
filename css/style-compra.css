@@ -39,6 +39,7 @@ p {
  color:rgb(134, 134, 130);
  text-align: center;
 }
+
 article {
     height: auto;
     overflow: hidden;
@@ -94,7 +95,6 @@ article {
     padding: 8px;
     width: 200px;
     margin: 2px;
-    
 }
 
 @media (min-width:768px) {
@@ -109,6 +109,7 @@ article {
         flex-basis: calc(66.7% - 2rem);
     }
 }
+
 @media (max-width:950px){
     .form-comentario{
         width: 350px;

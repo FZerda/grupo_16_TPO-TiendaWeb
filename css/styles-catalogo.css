@@ -37,7 +37,6 @@
 
 .contenedor-producto h3{
     text-align: center;
-    
 }
   
 .button-comprar-add:hover {
@@ -56,14 +55,11 @@
     color: black;
     border: 2px solid green;
     border-radius: 8px;
-    padding: 10px;
-    width: 250px;
-    
+    padding: 15px;
+    /*width: 250px;*/
 }
 
 .precio {
     text-align: center;
-    padding: 50px;
-    
+    padding: 25px;
 }
-

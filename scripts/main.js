@@ -20,7 +20,7 @@ function calculate(){
 
        cantidadEl_two.value = (cantidadEl_one.value * taza).toFixed(2);
 
-    } );
+    });
     
 }
 
@@ -35,7 +35,7 @@ taza.addEventListener('click', () =>{
     monedaEl_one.value = monedaEl_two.value;
     monedaEl_two.value = temp;
     calculate();
-} );
+});
 
 
 calculate();

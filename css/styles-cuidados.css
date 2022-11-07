@@ -11,10 +11,7 @@ article h1{
     text-align: center;
     line-height: 200px;
     font-size: 40px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-    
-    
-    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #contenido{
@@ -23,17 +20,14 @@ article h1{
     display: grid;
     margin: auto;
     padding: 15px 0;
-    
 }
     
 article ul{
     list-style: none;
-    
 }
 
 #img-cuidado{
     text-align: center;
     padding: 0%;
     margin: 20px 15px;
-
 }

@@ -27,7 +27,9 @@ F1F7ED
 api: conversor de moneda
 https://www.exchangerate-api.com/
 
-Colocamos como iframe un mapa en la página de "contacto" que nos redirecciona a una ubicación X Buenos Aires. 
+Se ubica en el catalogo, al presionar el botón "comprar" en el producto "TERMO STANLEY CLÁSICO 1.4 LTS CON TAPÓN CEBADOR DE ACERO INOXIDABLE".
+
+Colocamos como iframe un mapa en la página de "contacto" que nos redirecciona a una ubicación X de Buenos Aires. 
 Av. Sta. Fe 1302 (Palermo)
 
 
