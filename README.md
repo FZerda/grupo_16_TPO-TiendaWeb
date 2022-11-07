@@ -34,11 +34,10 @@ Av. Sta. Fe 1302 (Palermo)
 
 
 Logo que creamos para la página:
-![Screenshoot](./assets/logo.png) 
+![Screenshoot](./assets/logo3.svg) 
 
 
 Integrantes:
 -Azcarate Abril
 -Salvalaggio Niz Octavio Oscar
 -Zerda Florencia Ayelén
-
