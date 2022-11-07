@@ -7,38 +7,12 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles-form.css">
     <link rel="stylesheet" href="../css/styles-general.css">
-
+    <script src="../scripts/Validacion_formulario.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <scripts>
-        function validarFormulario(){
-            const motivo=document.getElementById("motivo");
-            const correo=document.forms[formulario].[email];
-            let eror=false;
-            if (!(document.getElementById("email").checkvalidity())){
-                alert("Inserte una direccion de correo valida")
-                document.getElementById("correoError").innerHTML="Inserte una direccion de correo valida";
-                error=true;
-            }
-            else{
-                document.getElementById("correoError").innerHTML="";
-            }
-            if(motivo=="sel_motivo"){
-                document.getElementById("motivoError").innerHTML="Inserte un motivo";
-                error=true;
-            }
-            else{
-                document.getElementById("motivoError").innerHTML="";
-            }
-            if(!error) {
-                document.getElementById("envioCorrecto").innerHTML="Su mensaje se ha enviado correctamente";
-            }
-            return;
-        } 
-    </scripts>
 </head>
 
 <body>
@@ -77,7 +51,7 @@
                         <p class="envioCorrecto"></p>
                         <p>Podés enviarnos un mensaje:</p>
 
-                        <form name="formulario" action="action_page.php" onsubmit="return validarFormulario()" method="post">
+                        <form name="formulario" onsubmit="return validarFormulario()" method="post">
                             <div class="form-floating mb-3 mt-3">
                                 <select class="form-select" id="sel1" name="sellist" required>
                                     <option value="" disabled selected hidden>Motivo de su consulta</option>
