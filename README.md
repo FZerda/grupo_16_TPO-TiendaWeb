@@ -37,7 +37,7 @@ Se ubica en el catalogo, al presionar el botón "comprar" en el producto "TERMO 
 
 ## Github repo
 
-Este es el repositorio [link](https://github.com/FZerda/grupo_16_TPO-TiendaWeb.CaC.git) 
+Este es el repositorio [link](https://github.com/FZerda/grupo_16_TPO-TiendaWeb.git) 
 
 ## Sitio Web
 
