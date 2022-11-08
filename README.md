@@ -6,7 +6,7 @@ Salvalaggio Niz Octavio Oscar -
 Zerda Florencia Ayelén
 
 ## Tematica
-Este proyecto fue creado para los amantes del mate, ofreciendo diferentes productos para llevar a cabo una tradición argentina.
+Este proyecto fue creado para los amantes del mate, ofreciendo diferentes productos para llevar a cabo una linda tradición argentina.
 
 
 ## Animaciones/transiciones
