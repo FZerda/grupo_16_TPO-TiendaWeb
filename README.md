@@ -49,7 +49,8 @@ El demo esta en el siguiente link [link](https://tiendadematesyaccesorios.netlif
 
 
 
-Logo que creamos para la página:
+## Logo que creamos para la página:
+
 ![Screenshoot](./assets/logo3.svg) 
 
 
