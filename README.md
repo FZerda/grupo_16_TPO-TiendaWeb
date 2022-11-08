@@ -41,16 +41,12 @@ Este es el repositorio [link](https://github.com/FZerda/grupo_16_TPO-TiendaWeb.C
 
 ## Sitio Web
 
-El demo esta en el siguiente link [link](https://german-ejemplo-tpo.netlify.app/)
+El demo esta en el siguiente link [link]()
 
 ## Tech Stack
 
-**Client:** HTML, CSS, Vanilla JavaSCript
+**Client:** HTML, CSS, JavaSCript
 
-## Tools Utilizadas
-
-- [Ion Icons](https://ionic.io/ionicons) para el hambuger menu bar
-- [Icon8](https://icons8.com/) para los skills icons
 
 ## Estructura de carpeta
 La carpeta assets contiene el logo y las imágenes.
