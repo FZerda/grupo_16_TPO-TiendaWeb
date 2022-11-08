@@ -35,10 +35,24 @@ https://www.exchangerate-api.com/
 
 Se ubica en el catalogo, al presionar el botón "comprar" en el producto "TERMO STANLEY CLÁSICO 1.4 LTS CON TAPÓN CEBADOR DE ACERO INOXIDABLE".
 
-Colocamos como iframe un mapa en la página de "contacto" que nos redirecciona a una ubicación X de Buenos Aires. 
+## Github repo
 
-Página de contacto totalmente responsive con 3 puntos de corte para 3 tamaños de dispositivos distintos. 
+Este es el repositorio [link](https://github.com/FZerda/grupo_16_TPO-TiendaWeb.CaC.git) 
 
+## Sitio Web
+
+El demo esta en el siguiente link [link](https://german-ejemplo-tpo.netlify.app/)
+
+## Tech Stack
+
+**Client:** HTML, CSS, Vanilla JavaSCript
+
+## Tools Utilizadas
+
+- [Ion Icons](https://ionic.io/ionicons) para el hambuger menu bar
+- [Icon8](https://icons8.com/) para los skills icons
+
+## Estructura de carpeta
 La carpeta assets contiene el logo y las imágenes.
 
 La carpeta views contiene los htmls de las paginas.
