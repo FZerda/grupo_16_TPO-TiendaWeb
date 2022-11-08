@@ -1,6 +1,6 @@
 ##Tienda de mates y accesorios.
 
-##Integrantes:
+## Integrantes:
 Azcarate Abril
 Salvalaggio Niz Octavio Oscar
 Zerda Florencia Ayelén
