@@ -1,10 +1,11 @@
-## Tienda de mates y accesorios.
+## TIENDA DE MATES Y ACCESORIOS.
 
 ## Integrantes:
-Azcarate Abril
-Salvalaggio Niz Octavio Oscar
+Azcarate Abril -
+Salvalaggio Niz Octavio Oscar -
 Zerda Florencia Ayelén
 
+## Tematica
 Este proyecto fue creado para los amantes del mate, ofreciendo diferentes productos para llevar a cabo una tradición argentina.
 
 
