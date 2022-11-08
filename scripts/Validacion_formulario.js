@@ -1,23 +1,22 @@
 function validarFormulario(){
     const motivo=document.getElementById("motivo");
-    const correo=document.getElementById("email");
+    const correo=document.forms[formulario].[email];
     let error=false;
-    if (!correo.checkValidity()){
+    if (!(document.getElementById("email").checkvalidity())){
+        alert("Inserte una direccion de correo valida")
         document.getElementById("correoError").innerHTML="Inserte una direccion de correo valida";
-        error=true;
+        return false;
     }
     else{
         document.getElementById("correoError").innerHTML="";
     }
     if(motivo=="sel_motivo"){
         document.getElementById("motivoError").innerHTML="Inserte un motivo";
-        error=true;
+        return false;
     }
     else{
         document.getElementById("motivoError").innerHTML="";
     }
-    if(!error) {
         document.getElementById("envioCorrecto").innerHTML="Su mensaje se ha enviado correctamente";
-    }
-    return;
+        return true;
 }

@@ -7,12 +7,12 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles-form.css">
     <link rel="stylesheet" href="../css/styles-general.css">
+    <script src="../scripts/Validacion_formulario.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    
 </head>
 
 <body>
@@ -48,43 +48,42 @@
                 <h2>Comunicate con nosotros</h2>
 
                 <div class="formulario">
-                    <form action="formulario.html" method="post">
                         <p class="envioCorrecto"></p>
                         <p>Podés enviarnos un mensaje:</p>
 
-                        <form action="/action_page.php">
+                        <form name="formulario" onsubmit="return validarFormulario()" method="post">
                             <div class="form-floating mb-3 mt-3">
-                            <select class="form-select" id="sel1" name="sellist">
-                            <option value="" disabled selected hidden>Motivo de su consulta</option>
-                            <option value="Cancelar Compra">1- Cancelar Compra</option>
-                            <option value="">2- Cambios y Devoluciones</option>
-                            <option>3- Envíos de pedidos</option>
-                            <option>4- Otra información</option>
-                            </select>
-                            <label for="sel1" class="form-label"></label>
-                        </div>
+                                <select class="form-select" id="sel1" name="sellist" required>
+                                    <option value="" disabled selected hidden>Motivo de su consulta</option>
+                                    <option value="Cancelar Compra">1- Cancelar Compra</option>
+                                    <option value="">2- Cambios y Devoluciones</option>
+                                    <option>3- Envíos de pedidos</option>
+                                    <option>4- Otra información</option>
+                                </select>
+                                <label for="sel1" class="form-label"></label>
+                            </div>
                         
-                        <div class="form-floating mb-3 mt-3">
-                            <input type="text" class="form-nombre"  placeholder="Nombre y Apellido" name="nombre">
-                            <label for="text"></label>
-                        </div>
+                            <div class="form-floating mb-3 mt-3">
+                                <input type="text" class="form-nombre"  placeholder="Nombre y Apellido" name="nombre" required>
+                                <label for="text"></label>
+                            </div>
 
-                        <div class="form-floating mb-3 mt-3">
-                            <input type="number" class="form-telefono" placeholder="Telefono" name="telefono">
-                            <label for="number"></label>
-                        </div>
+                            <div class="form-floating mb-3 mt-3">
+                                <input type="number" class="form-telefono" placeholder="Telefono" name="telefono">
+                                <label for="number"></label>
+                            </div>
 
-                        <div class="form-floating mb-3 mt-3">
-                            <input type="text" class="form-email" id="email" placeholder="Email" name="email">
-                            <label for="email"></label>
-                        </div>
-                        <div class="form-floating">
-                            <textarea class="form-comentario" id="comment" name="text" placeholder="Comentario""></textarea>
-                            <label for="comment"></label>
-                        </div>
-                        <p id="motivoError"></p>
-                        <input type="submit" value="Enviar"><br>
-                    
+                            <div class="form-floating mb-3 mt-3">
+                                <input type="text" class="form-email" id="email" placeholder="Email" name="email" required>
+                                <label for="email"></label>
+                            </div>
+                            <div class="form-floating">
+                                <textarea class="form-comentario" id="comment" name="text" placeholder="Comentario" required></textarea>
+                                <label for="comment"></label>
+                            </div>
+                            <p id="motivoError"></p>
+                            <input type="submit" value="Enviar"><br>
+                        
                     </form>
                 </div>    
             </div>
