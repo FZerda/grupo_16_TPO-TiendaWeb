@@ -6,7 +6,7 @@ Salvalaggio Niz Octavio Oscar -
 Zerda Florencia Ayelén
 
 ## Tematica
-Este proyecto fue creado para los amantes del mate, ofreciendo diferentes productos para llevar a cabo una tradición argentina.
+Este proyecto fue creado para los amantes del mate, ofreciendo diferentes productos para llevar a cabo una linda tradición argentina.
 
 
 ## Animaciones/transiciones
@@ -15,7 +15,7 @@ Se incorporó una transición en las imágenes del Inicio.
 
 Para estas animaciones se usó animate.css
 
-##Páginas de referencia
+## Páginas de referencia
 https://www.mateandoarg.com/
 https://www.tomamatetienda.com.ar/
 Elegimos éstas páginas porque nos gustó la estética e intentamos hacer algo parecido.
@@ -24,7 +24,7 @@ https://www.mercadolibre.com.ar/
 Elegimos Mercadolibre para tener una idea de precios de los productos.
 
 
-##Paleta de colores: Distintos tonos de Verde
+## Paleta de colores: Distintos tonos de Verde
 243E36
 F1F7ED
 7CA982
@@ -37,21 +37,16 @@ Se ubica en el catalogo, al presionar el botón "comprar" en el producto "TERMO 
 
 ## Github repo
 
-Este es el repositorio [link](https://github.com/FZerda/grupo_16_TPO-TiendaWeb.CaC.git) 
+Este es el repositorio [link](https://github.com/FZerda/grupo_16_TPO-TiendaWeb.git) 
 
 ## Sitio Web
 
-El demo esta en el siguiente link [link]()
+El demo esta en el siguiente link [link](https://tiendadematesyaccesorios.netlify.app)
 
 ## Tech Stack
 
 **Client:** HTML, CSS, JavaSCript
 
-
-## Estructura de carpeta
-La carpeta assets contiene el logo y las imágenes.
-
-La carpeta views contiene los htmls de las paginas.
 
 
 ## Logo que creamos para la página:
