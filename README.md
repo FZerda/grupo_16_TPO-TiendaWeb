@@ -23,6 +23,8 @@ Elegimos éstas páginas porque nos gustó la estética e intentamos hacer algo 
 https://www.mercadolibre.com.ar/
 Elegimos Mercadolibre para tener una idea de precios de los productos.
 
+## Página responsive
+Hicimos la página de contacto totalmente responsive con 3 puntos de corte para 3 tamaños de dispositivos distintos. 
 
 ## Paleta de colores: Distintos tonos de Verde
 243E36
