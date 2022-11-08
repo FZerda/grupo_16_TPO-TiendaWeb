@@ -1,4 +1,4 @@
-##Tienda de mates y accesorios.
+## Tienda de mates y accesorios.
 
 ## Integrantes:
 Azcarate Abril
