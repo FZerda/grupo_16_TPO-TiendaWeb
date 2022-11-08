@@ -15,7 +15,7 @@ Se incorporó una transición en las imágenes del Inicio.
 
 Para estas animaciones se usó animate.css
 
-##Páginas de referencia
+## Páginas de referencia
 https://www.mateandoarg.com/
 https://www.tomamatetienda.com.ar/
 Elegimos éstas páginas porque nos gustó la estética e intentamos hacer algo parecido.
