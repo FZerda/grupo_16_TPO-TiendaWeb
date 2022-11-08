@@ -24,7 +24,7 @@ https://www.mercadolibre.com.ar/
 Elegimos Mercadolibre para tener una idea de precios de los productos.
 
 
-##Paleta de colores: Distintos tonos de Verde
+## Paleta de colores: Distintos tonos de Verde
 243E36
 F1F7ED
 7CA982
@@ -41,17 +41,12 @@ Este es el repositorio [link](https://github.com/FZerda/grupo_16_TPO-TiendaWeb.C
 
 ## Sitio Web
 
-El demo esta en el siguiente link [link]()
+El demo esta en el siguiente link [link](https://tiendadematesyaccesorios.netlify.app)
 
 ## Tech Stack
 
 **Client:** HTML, CSS, JavaSCript
 
-
-## Estructura de carpeta
-La carpeta assets contiene el logo y las imágenes.
-
-La carpeta views contiene los htmls de las paginas.
 
 
 Logo que creamos para la página:
