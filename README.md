@@ -54,8 +54,14 @@ La carpeta assets contiene el logo y las imágenes.
 La carpeta views contiene los htmls de las paginas.
 
 
-Logo que creamos para la página:
+## Logo que creamos para la página:
 ![Screenshoot](./assets/logo3.svg) 
 
+## Bocetos hechos en Wireframe
 
+![Screenshoot](./assets/boceto-inicio.png)
+![Screenshoot](./assets/boceto-catalogo.png)
+![Screenshoot](./assets/boceto-boton.png)
+![Screenshoot](./assets/boceto-cuidados.png)
+![Screenshoot](./assets/boceto-contacto.png)
 
